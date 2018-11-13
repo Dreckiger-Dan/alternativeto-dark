@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name         GitHub Dark
+@version      0.0.1
+@description  Dark theme for GitHub
+@namespace    Dreckiger-Dan
+@author       Dreckiger-Dan
+@homepageURL  https://github.com/Dreckiger-Dan/alternativeto-dark
+@supportURL   https://github.com/Dreckiger-Dan/alternativeto-dark/issues
+@updateURL    https://raw.githubusercontent.com/Dreckiger-Dan/alternativeto-dark/master/github-dark.user.css
+@license      MIT
+==/UserStyle== */
+@-moz-document domain("alternativeto.net") {
+    #content, .main, .section, body {
+        background: #1d1d1d !important;
+    }
+
+    .browse-start, .content-box {
+        background: #222 !important;
+        color: #aaa !important;
+    }
+
+    .opinion-note, .report-opinion, .num, .label, .btn {
+        background: #444d56 !important;
+        color: #aaa !important;
+    }
+}
