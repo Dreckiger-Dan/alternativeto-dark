@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name         F.A.Z. Dark
+@version      0.0.1
+@description  Dark theme for faz.net
+@namespace    Dreckiger-Dan
+@author       Dreckiger-Dan
+@homepageURL  https://github.com/Dreckiger-Dan/customcss
+@supportURL   https://github.com/Dreckiger-Dan/customcss/issues
+@updateURL    https://raw.githubusercontent.com/Dreckiger-Dan/customcss/master/faz-dark.user.css
+@license      MIT
+==/UserStyle== */
+@-moz-document domain("faz.net") {
+  body,
+  footer {
+      background-color: #242424 !important;
+  }
+
+  .gh-MainNav,
+  header,
+  .o-GlobalWrapper,
+  .o-Grid,
+  .atc-Intro,
+  .ctn-PlaceholderBox,
+  .PlaceholderContent,
+  .js-cna,
+  .o-ModuleWrapper,
+  .gf-Wrapper_Inner,
+  .tsr-Lead_TextWrapperOuter,
+  .tsr-Top1_TeasersWrapper,
+  .tsr-Comment {
+      background-color: #444 !important;
+      border: none !important;
+  }
+
+  .gh-MainNav_Article:after,
+  .MainNav_Article,
+  .nvg-Breadcrumb_List:after {
+      background-image: none !important;
+  }
+
+  .atc-ContainerMore,
+  .cna-N1 {
+      display: none;
+  }
+}
