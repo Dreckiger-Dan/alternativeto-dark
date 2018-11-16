@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name         Golem Dark
+@version      0.0.1
+@description  Dark theme for golem.de
+@namespace    Dreckiger-Dan
+@author       Dreckiger-Dan
+@homepageURL  https://github.com/Dreckiger-Dan/customcss
+@supportURL   https://github.com/Dreckiger-Dan/customcss/issues
+@updateURL    https://raw.githubusercontent.com/Dreckiger-Dan/customcss/master/golem-dark.user.css
+@license      MIT
+==/UserStyle== */
+@-moz-document domain("golem.de") {
+    body {
+        background: #1d1d1d;
+    }
+
+    #grandwrapper, 
+    #screen, 
+    footer {
+        border-color: #222 !important;
+        background: #222 !important;
+        color: #ddd !important;
+    }
+
+    #job-market {
+        display: none;
+    }
+}
