@@ -25,4 +25,10 @@
     #job-market {
         display: none;
     }
+    
+    .toc,
+    .toc .toc__list {
+        border-left: none;
+        background: none;
+    }
 }
